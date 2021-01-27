@@ -1,0 +1,20 @@
+{
+  "name": "Alcatel MW40 USSD Fixes",
+  "description": "USSD Fixes for Alcatel MW40 MIFI",
+  "manifest_version": 2,
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://telenormi-fi.home/*",
+        "http://192.168.1.1/*"
+      ],
+      "js": [
+        "ussd.js"
+      ],
+      "css": [
+        "ussd.css"
+      ]
+    }
+  ]
+}

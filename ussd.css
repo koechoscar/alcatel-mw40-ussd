@@ -1,0 +1,6 @@
+.ussd-console .con{
+     white-space: pre;
+     font-family: Consolas;
+     background: black !important;
+     color: white !important;
+ }
